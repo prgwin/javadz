@@ -1,8 +1,13 @@
-package ru.petrov.task1;
+package ru.petrov.task2;
 
-public class Money {
+import java.util.Scanner;
+
+public class MoneyToSan {
     public static void main(String[] args) {
-        int money = 60000;
+        System.out.println("Введите оклад");
+        Scanner sc = new Scanner(System.in);
+
+        int money = sc.nextInt();
         int ndfl = 13;
         int clearMoney = money - (money/100)*ndfl;
 
