@@ -6,8 +6,8 @@ public class Gasoline {
         int litr = 30;
         int sum = price*litr;
 
-        System.out.println("Цена литра бензина "+ price+" руб.");
-        System.out.println("Количество литров "+ litr);
-        System.out.println("Итоговая стоимость: "+ sum);
+        System.out.println("Цена литра бензина " + price + " руб.");
+        System.out.println("Количество литров " + litr);
+        System.out.println("Итоговая стоимость: " + sum);
     }
 }
