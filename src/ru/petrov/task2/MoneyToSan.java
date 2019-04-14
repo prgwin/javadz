@@ -9,8 +9,8 @@ public class MoneyToSan {
 
         int money = sc.nextInt();
         int ndfl = 13;
-        int clearMoney = money - (money/100)*ndfl;
+        int clearMoney = money - (money / 100) * ndfl;
 
-        System.out.println("Ваша зарплата \"на руки\" за вычетом НДФЛ: "+ clearMoney);
+        System.out.println("Ваша зарплата \"на руки\" за вычетом НДФЛ: " + clearMoney);
     }
 }

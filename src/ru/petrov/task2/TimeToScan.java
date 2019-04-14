@@ -8,8 +8,8 @@ public class TimeToScan {
         Scanner scanner = new Scanner(System.in);
 
         int seconds = scanner.nextInt();
-        double hour = (double)seconds/3600;
-        System.out.printf(seconds+ " секунд это %.1f", hour  );
+        double hour = (double) seconds / 3600;
+        System.out.printf(seconds + " секунд это %.1f", hour);
         System.out.println(" часа");
     }
 }
