@@ -9,8 +9,8 @@ public class GasolineToScan {
 
         int price = scan.nextInt();
         int litr = scan.nextInt();
-        int sum = price*litr;
+        int sum = price * litr;
 
-        System.out.println("Итоговая стоимость: "+ sum);
+        System.out.println("Итоговая стоимость: " + sum);
     }
 }
