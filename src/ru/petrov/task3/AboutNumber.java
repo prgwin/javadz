@@ -1,5 +1,4 @@
 package ru.petrov.task3;
-
 import java.util.Scanner;
 
 /**
