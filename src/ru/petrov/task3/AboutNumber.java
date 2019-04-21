@@ -13,16 +13,16 @@ public class AboutNumber {
         int mod = number % 2;
 
         if (number != 0) {
-            if ((number > 0) && (mod == 0)) {
+            if ((number > 0) & (mod == 0)) {
                 System.out.println("Ваше число - положительное, четное ");
             }
-            if ((number > 0) && (mod != 0)) {
+            if ((number > 0) & (mod != 0)) {
                 System.out.println("Ваше число - положительное, нечетное ");
             }
-            if ((number < 0) && (mod == 0)) {
+            if ((number < 0) & (mod == 0)) {
                 System.out.println("Ваше число - отрицательное, четное ");
             }
-            if ((number < 0) && (mod != 0)) {
+            if ((number < 0) & (mod != 0)) {
                 System.out.println("Ваше число - отрицательное, нечетное ");
             }
         } else {
