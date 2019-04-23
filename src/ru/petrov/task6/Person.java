@@ -1,4 +1,4 @@
-package ru.petrov.task4;
+package ru.petrov.task6;
 
 public class Person {
     private String firstName;

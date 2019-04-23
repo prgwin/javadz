@@ -1,4 +1,4 @@
-package ru.petrov.task4;
+package ru.petrov.task6;
 
 import java.util.Arrays;
 

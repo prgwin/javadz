@@ -1,4 +1,4 @@
-package ru.petrov.task4;
+package ru.petrov.task6;
 
 public class Client extends Person {
     private int creditRating;   // Кридитный рейтинт от 1 до 5

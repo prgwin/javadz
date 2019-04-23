@@ -1,4 +1,4 @@
-package ru.petrov.task4;
+package ru.petrov.task6;
 
 public class BankApp {
     public static void main(String[] args) {
