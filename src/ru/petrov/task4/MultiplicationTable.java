@@ -1,4 +1,4 @@
-package ru.petrov.task3;
+package ru.petrov.task4;
 //Написать программу для вывода на экран таблицы умножения.
 public class MultiplicationTable {
     public static void main(String[] args) {

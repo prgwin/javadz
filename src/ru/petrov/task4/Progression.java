@@ -1,4 +1,4 @@
-package ru.petrov.task3;
+package ru.petrov.task4;
 
 import java.util.Scanner;
 //Написать программу, которая выводит арифметическую или геометрическую прогрессию для N чисел.
