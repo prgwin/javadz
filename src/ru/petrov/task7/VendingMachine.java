@@ -12,9 +12,12 @@ public class VendingMachine {
     Drinks tea = new Drinks(1, "Чай", 50);
     Drinks coffee = new Drinks(2, "Кофе", 60);
     Drinks cola = new Drinks(2, "Кола", 70);
-//        drink[0] = tea;
+//
+//    {   drink[0] = tea;
 //        drink[1] = coffee;   // ПОЧЕМУ НЕЛЬЗЯ?
 //        drink[2] = cola;
+//    }
+
 
     public void menuChooseDrink() {    // Меню выбора напитка
         System.out.println("Выберите напиток");
