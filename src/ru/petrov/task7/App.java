@@ -14,6 +14,5 @@ public class App {
         int userChoice = scanner.nextInt(); // Ответ пользователя
         vm.сhooseDrink(userChoice);         // Определяем что выбрал пользователь
         vm.cashBackMoney();   //  Операции с деньгами, сдача или добавление
-
     }
 }
