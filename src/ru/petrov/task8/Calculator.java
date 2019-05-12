@@ -13,6 +13,9 @@ public class Calculator {
 
         division(35, 7);         // Деление
         division(35.8, 7.3);
+
+        percentOfNumber(20, 90);// Процент от числа
+        percentOfNumber(28.3, 137.5);
     }
 
     //Вычитание
@@ -40,5 +43,16 @@ public class Calculator {
 
     public static void division(double a, double b) { //Перегрузка метода
         System.out.println("Результат деления (a / b)= " + (a / b));
+    }
+
+    // Процент от числа
+    public static void percentOfNumber(int a, int b) {
+        double percent = (double) b / 100;
+        double result = percent * a;
+        System.out.println(a + " процентов от чила " + b + " = " + result);
+    }
+
+    public static void percentOfNumber(double a, double b) { //Перегрузка метода
+        System.out.println(a + " процентов от чила " + b + " = " + (b / 100) * a);
     }
 }
