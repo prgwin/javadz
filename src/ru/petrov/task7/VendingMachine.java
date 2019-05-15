@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class VendingMachine {
     private int totalPrise;    // Буфферная переменная стоимости товара
     private int deposit; // Внесенные деньги пользователя
-    private int moneyBuf = 0; // Буффер внесенных деньнег пользователя
+    private int moneyBuf = 0; // Буффер внесенных денег пользователя
     private int addMoney = 0; // переменная недостающих средств
 
-    Drinks[] drink = new Drinks[3];
-    Drinks tea = new Drinks(1, "Чай", 50);
-    Drinks coffee = new Drinks(2, "Кофе", 60);
-    Drinks cola = new Drinks(2, "Кола", 70);
+    Drink[] drink = new Drink[3];
+    Drink tea = new Drink(1, "Чай", 50);
+    Drink coffee = new Drink(2, "Кофе", 60);
+    Drink cola = new Drink(2, "Кола", 70);
 
 //    {   drink[0] = tea;
 //        drink[1] = coffee;   // ПОЧЕМУ НЕЛЬЗЯ?
