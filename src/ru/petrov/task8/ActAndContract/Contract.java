@@ -5,13 +5,15 @@ import java.util.Arrays;
 public class Contract {
     private int number;         // Номер договра
     private String date;        // Дата договора
-    private String[] goods = new String[]{"Линейка", "Ручка", "Карандаш"};  // Перечень товаров
+    private String[] goods;// = new String[]{"Линейка", "Ручка", "Карандаш"};  // Перечень товаров
     //private String[] goods = {"Линейка","Ручка","Карандаш"};  // Перечень товаров
 
 
-    public Contract(int number, String date) {
+    public Contract(int number, String date, String... goods) {
         this.number = number;
         this.date = date;
+        this.goods = goods;
+
     }
 
     //ТОЛЬКО геттеры

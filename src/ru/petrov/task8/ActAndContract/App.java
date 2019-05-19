@@ -9,11 +9,13 @@ package ru.petrov.task8.ActAndContract;
 // class Convert - конвертер из договора в акт
 public class App {
     public static void main(String[] args) {
-        contractToAct();
+        App app = new App();
+
+        app.contractToAct();
     }
 
-    public static void contractToAct() {
-        Contract contract = new Contract(889, "01.01.2019");
+    public void contractToAct() {
+        Contract contract = new Contract(889, "01.01.2019", "Линейка", "Ручка", "Карандаш");
         Act act = new Act();
 
         act.setNumber(contract.getNumber());

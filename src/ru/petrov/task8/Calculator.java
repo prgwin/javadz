@@ -23,13 +23,25 @@ public class Calculator {
         System.out.println("Результат вычитания (a-b)= " + (a - b));
     }
 
+    /**
+     * метод вычитает дробные числа и выводит результат в коньсоль
+     *
+     * @param a прпр
+     * @param b
+     */
     public static void subtraction(double a, double b) { //Перегрузка метода
         System.out.println("Результат вычитания (a-b)= " + (a - b));
     }
 
-    // Сложение
-    public static void addition(int a, int b) {
-        System.out.println("Результат сложения (a+b)= " + (a + b));
+    /**
+     * @param a
+     * @param b
+     * @return сумма двух аргументов
+     */
+    public static int addition(int a, int b) {
+        int sum = a + b;
+        System.out.println("Результат сложения (a+b)= " + sum);
+        return sum;
     }
 
     public static void addition(double a, double b) { //Перегрузка метода
