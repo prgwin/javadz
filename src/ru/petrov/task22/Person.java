@@ -2,7 +2,7 @@ package ru.petrov.task22;
 
 public class Person {
     private String name;
-    private int age;
+    private Integer age;
 
     public Person(String name, int age) {
         this.name = name;
@@ -13,7 +13,7 @@ public class Person {
         return name;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 

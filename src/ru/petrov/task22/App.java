@@ -1,30 +1,27 @@
 package ru.petrov.task22;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 //Написать класс PersonSuperComparator,
 //который имплементит Comparator, но умеет сравнивать по двум параметрам , возраст и имя.
 //Класс Person теперь содержит два поля int age и String name
 public class App {
     public static void main(String[] args) {
-        List<Person> person = new ArrayList<>();
-        person.add(new Person("Иван", 34));
-        person.add(new Person("Сергей", 32));
-        person.add(new Person("Екатерина", 26));
-        person.add(new Person("Коля", 27));
-        person.add(new Person("Сергей", 28));
+        List<Person> persons = new ArrayList<>();
+        persons.add(new Person("Иван", 34));
+        persons.add(new Person("Сергей", 32));
+        persons.add(new Person("Екатерина", 26));
+        persons.add(new Person("Коля", 27));
+        persons.add(new Person("Сергей", 28));
 
         System.out.println("Не отсортированная коллекция");
-        Iterator iterator = person.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        for (Person person : persons) {
+            System.out.println(person);
         }
 
         System.out.println("Отсортированная коллекция");
-        Collections.sort(person, new PersonSuperComparator());
-        System.out.println(person);
+        Collections.sort(persons, new PersonSuperComparator());
+        System.out.println(persons);
     }
 }
+

@@ -9,7 +9,7 @@ public class PersonSuperComparator implements Comparator<Person> {
         if (result != 0) {    //Если name равны, сравниваем по age
             return result;
         } else {
-            return o1.getAge() - o2.getAge();
+            return o1.getAge().compareTo(o2.getAge());
         }
     }
 }
